@@ -1,0 +1,17 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/tailwind.css -o ./public/styles.css",
+    "watch": "npx tailwindcss -i ./src/tailwind.css -o ./public/styles.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.0.5",
+    "tailwindcss": "^4.0.5"
+  },
+  "keywords": [],
+  "author": "Sebastian Gutierrez",
+  "license": "ISC",
+  "description": ""
+}
